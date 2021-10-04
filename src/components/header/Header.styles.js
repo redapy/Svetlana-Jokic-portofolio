@@ -1,0 +1,13 @@
+import styled from "styled-components";
+
+export const Wrapper = styled.div`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+`;
+
+export const HeaderImage = styled.img`
+    height: 300px;
+    object-fit: 100% 100%;
+`;
+
