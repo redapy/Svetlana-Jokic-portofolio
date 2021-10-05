@@ -23,7 +23,7 @@ export const List = styled.ul`
         cursor: pointer;
         :hover {
             color: var(--white);
-            background: var(--darkblue);
+            background: var(--pink);
         }
     }
     a {

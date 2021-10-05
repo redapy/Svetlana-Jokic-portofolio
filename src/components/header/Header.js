@@ -4,7 +4,7 @@ import { HeaderImage, Wrapper } from './Header.styles';
 //components
 import Navbar from '../navbar/Navbar';
 //images
-import ESLImage from '../../images/esl.jpg'
+import ESLImage from '../../images/esl2.jpg'
 
 
 const Header = () => {
