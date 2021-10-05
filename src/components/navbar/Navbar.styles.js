@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
     width: 100%;
-    min-height: 80px;
+    min-height: 60px;
     background: var(--lightblue);
 `;
 
@@ -17,13 +17,13 @@ export const List = styled.ul`
     li {
         display: flex;
         align-items: center;
-        min-height: 80px;
+        min-height: 60px;
         padding: 0 2em;
         list-style :none;
         cursor: pointer;
         :hover {
             color: var(--white);
-            background: var(--pink);
+            background: var(--darkblue);
         }
     }
     a {
