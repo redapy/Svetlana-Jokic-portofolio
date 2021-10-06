@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
+
 export const GlobalStyle = createGlobalStyle`
     :root {
         --darkblue: #4D6D9A;
@@ -19,5 +20,25 @@ export const GlobalStyle = createGlobalStyle`
     body {
         width: 100%;
         min-height: 100vh;
+        h1 {
+            font-family: 'Italianno', cursive;
+            font-size: 3rem;
+            font-weight: 600;
+        }
+        h2 {
+            font-family: 'Eczar', serif;
+            font-size: 1.8rem;
+            font-weight: 500;
+        }
+
+        h3 {
+            font-family: 'Rock Salt', cursive;
+            font-size: 1.6rem;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+        }
     }
 `;

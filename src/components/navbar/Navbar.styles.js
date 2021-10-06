@@ -4,6 +4,8 @@ export const Nav = styled.nav`
     width: 100%;
     min-height: 60px;
     background: var(--lightblue);
+    font-family: 'Chewy', cursive;
+    font-size: 1.4rem;
 `;
 
 export const List = styled.ul`

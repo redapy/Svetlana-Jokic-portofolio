@@ -25,7 +25,7 @@ export const Content = styled.article`
     border-radius: 5%;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    h1 {
+    h3 {
         color: var(--darkgrey);
         border-bottom: 2px solid var(--pink);
         padding-bottom: 0.5em;

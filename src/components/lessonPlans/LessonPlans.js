@@ -15,7 +15,7 @@ const LessonPlans = () => {
                 <Content>
                     <Flex>
                         <Logo src={Logoimg} />
-                        <h1>Lesson PLans</h1>
+                        <h3>Lesson PLans</h3>
                     </Flex>
                     <List>
                         <li><a href="https://docs.google.com/document/d/1d7GURxczRjvXuX3IZh4x6JgPAAHnPhmk/edit?rtpof=true" target="_blank">Edited Reading/Writing Lesson Plan with Technology </a></li>
@@ -33,7 +33,7 @@ const LessonPlans = () => {
                 <Content>
                     <Flex>
                         <Logo src={Logoimg} />
-                        <h1>Micro lessons</h1>
+                        <h3>Micro lessons</h3>
                     </Flex>
                     <List>
                         <li><a href="https://youtu.be/ZyJEW6ZbuGY" target="_blank">Edited Reading/Writing Lesson Plan with Technology </a></li>

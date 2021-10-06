@@ -23,7 +23,7 @@ export const Background = styled.div`
 `;
 
 export const Wrapper = styled.div`
-    max-width: 70%;
+    max-width: 75%;
     margin: 10px auto;
     display: flex;
     justify-content: center;
@@ -50,6 +50,7 @@ export const Content = styled.section`
     }
     p {
         margin-bottom: 1rem;
+        line-height: 1.5;
     }
     button {
         max-width: 5rem;

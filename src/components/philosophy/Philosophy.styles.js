@@ -27,7 +27,7 @@ export const Content = styled.div`
     justify-content: center;
     margin-bottom: 2em;
     border: 1px solid var(--pink);
-    border-radius: 3%;
+    border-radius: 1%;
     background: var(--lightblue);
     color:black;
     min-height: 100%;
@@ -40,7 +40,7 @@ export const Content = styled.div`
 
 export const Sections = styled.section`
     margin-bottom: 3em;
-    h3 {
+    h2 {
         max-width: 30%;
         margin: 0 auto;
         margin-bottom: 1.5em;
@@ -52,6 +52,9 @@ export const Sections = styled.section`
     p {
         margin-bottom: 1em;
         line-height: 1.5;
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 15px;
     }
 
 `;
