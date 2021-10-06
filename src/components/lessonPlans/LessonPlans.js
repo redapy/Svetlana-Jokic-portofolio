@@ -4,7 +4,8 @@ import Navbar from '../navbar/Navbar';
 //styles
 import { Content, Flex, List, Logo, Wrapper } from './LessonPlans.styles';
 //Images
-import Logoimg from '../../images/lesson-plan-logo.jpg'
+import Logoimg from '../../images/lesson-plan-logo.png'
+import Logomicro from '../../images/micro-lesson-logo.png'
 
 
 const LessonPlans = () => {
@@ -32,7 +33,7 @@ const LessonPlans = () => {
                 </Content>
                 <Content>
                     <Flex>
-                        <Logo src={Logoimg} />
+                        <Logo src={Logomicro} />
                         <h3>Micro lessons</h3>
                     </Flex>
                     <List>
