@@ -1,9 +1,9 @@
 import React from 'react';
 //Routing
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Home from './components/home/Home';
 //Components
-import Navbar from "./components/navbar/Navbar";
+import Home from './components/home/Home';
+import LessonPlans from './components/lessonPlans/LessonPlans';
 import Philosophy from './components/philosophy/Philosophy';
 import { GlobalStyle } from './GlobalStyle';
 
@@ -18,6 +18,9 @@ function App() {
         </Route>
         <Route  path='/teaching philosophy'>
           <Philosophy />
+        </Route>
+        <Route  path='/lesson plans and videos'>
+          <LessonPlans />
         </Route>
       </Switch> 
       <GlobalStyle />

@@ -8,7 +8,7 @@ const Philosophy = () => {
         <>
             <Navbar />
             <Wrapper>
-            <h1>Teaching Philosphy</h1>
+            <h1>My Teaching Philosophy</h1>
                 <Content>
                     <Sections>
                         <h3>Teaching Purpose</h3>

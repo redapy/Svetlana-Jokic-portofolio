@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align:center;
+    
     background: var(--darkblue);
     color: var(--pink);
     h1 {
@@ -28,7 +28,7 @@ export const Content = styled.div`
     margin-bottom: 2em;
     border: 1px solid var(--pink);
     border-radius: 3%;
-    background: var(--kindablue);
+    background: var(--lightblue);
     color:black;
     min-height: 100%;
     padding: 2em;
@@ -47,6 +47,7 @@ export const Sections = styled.section`
         padding-bottom: 1em;
         color: var(--darkgrey);
         border-bottom: 2px solid var(--pink);
+        text-align:center;
     }
     p {
         margin-bottom: 1em;
