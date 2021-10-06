@@ -12,11 +12,11 @@ const ToolBox = () => {
                 <Content>
                     <Tip>
                         <h3>Toolbox Tip 1</h3>
-                        <li><a href="https://docs.google.com/document/d/1HDJVnIf5bDXX6MXEnDsCf-g9wWp2awUf/edit" target='_blank'>Debate</a></li>
+                        <li><a href="https://docs.google.com/document/d/1HDJVnIf5bDXX6MXEnDsCf-g9wWp2awUf/edit" target='_blank' rel="noreferrer">Debate</a></li>
                     </Tip>
                     <Tip>
                         <h3>Toolbox Tip 2</h3>
-                        <li><a href="https://docs.google.com/document/d/1HDJVnIf5bDXX6MXEnDsCf-g9wWp2awUf/edit" target='_blank'>Geography</a></li>
+                        <li><a href="https://docs.google.com/document/d/1HDJVnIf5bDXX6MXEnDsCf-g9wWp2awUf/edit" target='_blank' rel="noreferrer">Geography</a></li>
                     </Tip>
                 </Content>
             </Background>
