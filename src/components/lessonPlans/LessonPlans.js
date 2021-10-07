@@ -16,8 +16,8 @@ const LessonPlans = () => {
         <>
             <Navbar />
             <Wrapper>
-                <Content>
-                    <Flex>
+                <Content initial={{x:'-100vw', opacity:0}} animate={{x:0, opacity:1}} transition={{type:'tween', duration:0.7}}>
+                    <Flex initial={{y:'-30vh', opacity:0}} animate={{y:0, opacity:1}} transition={{type: 'spring', delay:0.7}}>
                         <Logo src={Logoimg} />
                         <h3>Lesson PLans</h3>
                     </Flex>
@@ -38,8 +38,8 @@ const LessonPlans = () => {
                         ))}
                     </List>
                 </Content>
-                <Content>
-                    <Flex>
+                <Content initial={{x:'100vw', opacity:0}} animate={{x:0, opacity:1}} transition={{type:'tween', duration:0.7}}>
+                    <Flex initial={{y:'-30vh', opacity:0}} animate={{y:0, opacity:1}} transition={{type: 'spring', delay:0.7}}>
                         <Logo src={Logomicro} />
                         <h3>Micro lessons</h3>
                     </Flex>

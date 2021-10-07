@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
@@ -14,7 +15,7 @@ export const Wrapper = styled.div`
     }
 `;
 
-export const Content = styled.article`
+export const Content = styled(motion.article)`
     max-width: 40%;
     display: flex;
     flex-direction: column;
@@ -34,7 +35,7 @@ export const Content = styled.article`
     }
 `;
 
-export const Flex = styled.div`
+export const Flex = styled(motion.div)`
     max-width: 100%;
     display: flex;
     align-items: center;
