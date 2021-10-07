@@ -1,6 +1,8 @@
 import styled from "styled-components";
+//Animation
+import { motion } from "framer-motion"
 
-export const Background = styled.div`
+export const Background = styled(motion.div)`
     width:100%;
     display: flex;
     align-items: center;
@@ -10,19 +12,9 @@ export const Background = styled.div`
     background-position: center;
     background-size: cover;
     padding: 40px 20px;
-    animation: animateMovieInfo 1s;
-
-    @keyframes animateMovieInfo {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
-    }
 `;
 
-export const Wrapper = styled.div`
+export const Wrapper = styled(motion.div)`
     max-width: 75%;
     margin: 10px auto;
     display: flex;
