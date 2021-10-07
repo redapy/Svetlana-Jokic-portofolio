@@ -2,13 +2,15 @@ import React from 'react';
 //Components
 import Navbar from '../navbar/Navbar';
 import { Sections, Wrapper,Content } from './Philosophy.styles';
+//animation
+import { motion } from 'framer-motion';
 
 const Philosophy = () => {
     return ( 
         <>
             <Navbar />
             <Wrapper>
-            <h1>My Teaching Philosophy</h1>
+            <motion.h1 initial={{opacity: 0, y:'-300px'}} animate={{opacity:1, y:0}} transition={{type:'spring', stiffness:100, delay:0.5}}>My Teaching Philosophy</motion.h1>
                 <Content>
                     <Sections>
                         <h2>Teaching Purpose</h2>
