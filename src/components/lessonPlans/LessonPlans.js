@@ -6,6 +6,8 @@ import { Content, Flex, List, Logo, Wrapper } from './LessonPlans.styles';
 //Images
 import Logoimg from '../../images/lesson-plan-logo.png'
 import Logomicro from '../../images/micro-lesson-logo.png'
+//Animation
+import { motion } from 'framer-motion';
 
 
 
@@ -21,7 +23,18 @@ const LessonPlans = () => {
                     </Flex>
                     <List>
                         {lessons.map(lesson => (
-                            <li key={lesson.id}><a href={lesson.link} target="_blank" rel="noreferrer">{lesson.title}</a></li>
+                            <motion.li 
+                                key={lesson.id}
+                                whileHover={{scale: 1.2, originX: 0, color:'var(--darkblue)'}}
+                                transition= {{type: 'spring', stiffness: 400}}
+                            >
+                                <motion.a 
+                                    whileHover={{color:'var(--darkblue)', textShadow: '0px 0px 0px rgb(237, 181, 191)'}}
+                                    href={lesson.link}
+                                    target="_blank"
+                                    rel="noreferrer">{lesson.title}
+                                </motion.a>
+                            </motion.li>
                         ))}
                     </List>
                 </Content>
@@ -32,7 +45,18 @@ const LessonPlans = () => {
                     </Flex>
                     <List>
                         {lessons.map(lesson => (
-                            <li key={lesson.id}><a href={lesson.link} target="_blank" rel="noreferrer">{lesson.title}</a></li>
+                            <motion.li 
+                                key={lesson.id}
+                                whileHover={{scale: 1.2, originX: 0, color:'var(--darkblue)'}}
+                                transition= {{type: 'spring', stiffness: 400}}
+                            >
+                                <motion.a 
+                                    whileHover={{color:'var(--darkblue)', textShadow: '0px 0px 0px rgb(237, 181, 191)'}}
+                                    href={lesson.video}
+                                    target="_blank"
+                                    rel="noreferrer">{lesson.title}
+                                </motion.a>
+                            </motion.li>
                         ))}
                     </List>
                 </Content>
