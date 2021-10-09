@@ -11,7 +11,7 @@ const Philosophy = () => {
             <Navbar />
             <Wrapper>
             <motion.h1 initial={{opacity: 0, y:'-300px'}} animate={{opacity:1, y:0}} transition={{type:'spring', stiffness:100, delay:0.5}}>My Teaching Philosophy</motion.h1>
-                <Content>
+                <Content initial={{opacity:0}} animate={{opacity:1}} transition= {{delay: 0.5 , duration:1}}>
                     <Sections>
                         <h2>Teaching Purpose</h2>
                         <p>When I was in elementary school, in my 5th year of studying, I had my first foreign language, and it was English. I thought I would never make it right, and I would never learn it. But, the professor was so great with a positive attitude, so interesting and she gained my attention and made me like this subject, so it becomes my favorite subject in school. She motivated me, and after some time I become good at it. During high school and faculty, I was attending English classes, but all of that professors weren't the same as my elementary school teacher, they don't care about students, they don't have passion. They had been teaching that subject and doing that job only because of money, not because they love it.</p>
