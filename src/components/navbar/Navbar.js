@@ -1,18 +1,36 @@
-import React from 'react';
-import { List, Nav } from './Navbar.styles';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+//styles
+import { MobileIcon, Nav } from './Navbar.styles';
+//components
+import Pages from './Pages';
+//Icones
+import { FaBars } from 'react-icons/fa';
+import {AiOutlineClose} from 'react-icons/ai'
+
+
 
 const Navbar = () => {
+
+    const [isOpened, setIsOpened] = useState(true);
+
+    const handleOpen = () => {
+        setIsOpened(!isOpened)
+    };
+
+    useEffect(() => {
+        setIsOpened(false)
+    }, [])
+
     return ( 
-        <Nav>
-            <List>
-                <Link to='/'><li>HOME</li></Link>
-                <Link to='/teaching philosophy' ><li>TEACHING PHILOSOPHY</li></Link>
-                <Link to='/lesson plans and videos' ><li>LESSON PLANS AND VIDEOS</li></Link>
-                <Link to='/toolbox tips' ><li>TOOLBOX TIPS</li></Link>
-                <li><a href='#id-with-pic'>PICTURE WITH ID</a></li>
-            </List>
-        </Nav>
+        <>
+            <Nav>
+                <Pages />
+            </Nav>
+            <MobileIcon onClick={handleOpen}>
+                {!isOpened ? (<FaBars />) : (<AiOutlineClose />)}
+            </MobileIcon>
+            {isOpened && <Pages />}
+        </>
      );
 }
  
