@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-    max-width: 100%;
+    width: 100%;
     min-height: 100vh;
     background: var(--darkblue);
     display: flex;
@@ -11,12 +11,12 @@ export const Wrapper = styled.div`
 
     @media screen and (max-width: 750px) {
         flex-direction: column;
-        min-width: 750px;
+        justify-content: center;
     }
 `;
 
 export const Content = styled(motion.article)`
-    max-width: 40%;
+    width: max(300px, 40%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,5 +60,6 @@ export const List = styled.ol`
     a {
         text-decoration: none;
         color: black;
+        font-size: clamp(0.8rem, 1vw + .5rem, 1rem);
     }
 `;

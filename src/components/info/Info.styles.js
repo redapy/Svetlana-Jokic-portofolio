@@ -62,4 +62,8 @@ export const ProfilePic = styled.img`
     max-width: 50%;
     border: 3px solid var(--pink);
     border-radius: 5%;
+
+    @media screen and (max-width:600px) {
+        max-width: 100%;
+    }
 `;

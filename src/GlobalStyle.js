@@ -22,23 +22,23 @@ export const GlobalStyle = createGlobalStyle`
         min-height: 100vh;
         h1 {
             font-family: 'Italianno', cursive;
-            font-size: 3rem;
+            font-size: clamp(1.5rem, 3vw + .5rem, 3rem);
             font-weight: 600;
         }
         h2 {
             font-family: 'Eczar', serif;
-            font-size: 1.8rem;
+            font-size: clamp(1.2rem, 2vw + .5rem, 1.8rem);
             font-weight: 500;
         }
 
         h3 {
             font-family: 'Rock Salt', cursive;
-            font-size: 1.6rem;
+            font-size: clamp(1rem, 1vw + .5rem, 1.6rem);
         }
 
         p {
             font-family: 'Montserrat', sans-serif;
-            font-size: 1rem;
+            font-size: clamp(0.8rem, 0.5vw + .5rem, 1rem);
         }
     }
 `;

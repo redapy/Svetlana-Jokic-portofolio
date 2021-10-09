@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
     h1 {
         margin-top: 1em;
         margin-bottom: 1em;
+        text-align: center;
         padding: 1em;
         background: rgb(95, 99, 102, 0.5);
         border-radius: 70%;
