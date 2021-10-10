@@ -8,7 +8,8 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: var(--darkblue);
+    background: rgb(237,181,191);
+background: linear-gradient(29deg, rgba(237,181,191,1) 2%, rgba(153,206,211,1) 12%, rgba(77,109,154,1) 30%, rgba(237,181,191,1) 63%, rgba(153,206,211,1) 80%, rgba(77,109,154,1) 94%);
     color: var(--pink);
     h1 {
         margin-top: 1em;
