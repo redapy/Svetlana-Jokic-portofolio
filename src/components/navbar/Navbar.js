@@ -19,7 +19,7 @@ const Navbar = () => {
 
     useEffect(() => {
         setIsOpened(false)
-    }, [])
+    }, [setIsOpened])
 
     return ( 
         <>

@@ -11,7 +11,6 @@ export const Nav = styled.nav`
     z-index: 10;
 
     @media screen and (max-width: 720px) {
-        transition: 0.8s all ease; 
         display: none;
     }
 `;
@@ -44,6 +43,22 @@ export const List = styled.ul`
     width: 100%;
     min-height: 100%;
     margin: 0 auto;
+
+    @media screen and (max-width: 720px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--lightblue);
+        li {
+            display: flex;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    } 
+     
     li {
         display: flex;
         align-items: center;
@@ -62,22 +77,7 @@ export const List = styled.ul`
         :hover {
             color: var(--white);
         }
-    } 
-    
-    @media screen and (max-width: 720px) {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: var(--lightblue);
-        li {
-            display: flex;
-            width: 100vw;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-    }   
+    }  
 `;
 
 

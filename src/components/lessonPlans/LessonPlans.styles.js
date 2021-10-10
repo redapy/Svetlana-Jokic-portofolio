@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
     width: 100%;
     min-height: 100vh;
+    margin:0 auto;
     background: var(--darkblue);
     display: flex;
     align-items: center;
@@ -26,6 +27,7 @@ export const Content = styled(motion.article)`
     border-radius: 5%;
     margin-top: 1rem;
     margin-bottom: 1rem;
+
     h3 {
         color: var(--darkgrey);
         border-bottom: 2px solid var(--pink);

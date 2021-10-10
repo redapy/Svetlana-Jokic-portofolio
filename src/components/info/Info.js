@@ -9,8 +9,8 @@ import { motion } from "framer-motion"
 const Info = () => {
 
     return ( 
-        <Background initial={{opacity:0 }} animate={{opacity:1}} transition={ {delay: 0.3,duration:0.7} } >
-            <Wrapper  initial={{opacity:0, x:'100vw'}} animate={{opacity:1, x:0}} transition={{type: 'tween' , delay:0.5, duration:2 }}>
+        <Background initial={{opacity:0 }} animate={{opacity:1}} transition={ {duration:0.7} } >
+            <Wrapper  initial={{opacity:0.2, x:'300px'}} animate={{opacity:1, x:0}} transition={{type: 'tween' , delay:0.5, duration:2 }}>
                 <ProfilePic 
                     src={profile}
                     alt='profile picture'

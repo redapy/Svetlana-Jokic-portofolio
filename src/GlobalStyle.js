@@ -17,7 +17,10 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
     }
 
+    
+
     body {
+        overflow-x: hidden;
         width: 100%;
         min-height: 100vh;
         h1 {
