@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
     min-height: 100vh;
     margin:0 auto;
     background: rgb(237,181,191);
-background: linear-gradient(29deg, rgba(237,181,191,1) 2%, rgba(153,206,211,1) 12%, rgba(77,109,154,1) 30%, rgba(237,181,191,1) 63%, rgba(153,206,211,1) 80%, rgba(77,109,154,1) 94%);
+    background: linear-gradient(29deg, rgba(237,181,191,1) 2%, rgba(153,206,211,1) 12%, rgba(77,109,154,1) 30%, rgba(237,181,191,1) 63%, rgba(153,206,211,1) 80%, rgba(77,109,154,1) 94%);
     display: flex;
     align-items: center;
     justify-content: space-around;
