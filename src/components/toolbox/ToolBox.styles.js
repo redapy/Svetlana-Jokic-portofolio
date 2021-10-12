@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 export const Background = styled.div`
     width:100%;
@@ -13,7 +14,7 @@ export const Background = styled.div`
     padding: 40px 20px;
 `;
 
-export const Content = styled.div`
+export const Content = styled(motion.div)`
     width: 60%;
     display: flex;
     flex-direction: column;
