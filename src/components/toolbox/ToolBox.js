@@ -1,6 +1,4 @@
 import React from 'react';
-//animation
-import { motion } from 'framer-motion';
 //styles
 import { Content, Background, Tip  } from './ToolBox.styles';
 //compononets
