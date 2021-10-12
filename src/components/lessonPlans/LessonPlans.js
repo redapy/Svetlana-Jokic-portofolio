@@ -52,7 +52,7 @@ const LessonPlans = () => {
                             >
                                 <motion.a 
                                     whileHover={{color:'var(--darkblue)', textShadow: '0px 0px 0px rgb(237, 181, 191)'}}
-                                    href=""
+                                    href={lesson.video}
                                     target="_blank"
                                     rel="noreferrer">{lesson.title}
                                 </motion.a>
