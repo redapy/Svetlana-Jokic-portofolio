@@ -3,7 +3,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 //Components
 import Home from './components/home/Home';
-import Id from './components/id/Id';
 import LessonPlans from './components/lessonPlans/LessonPlans';
 import Philosophy from './components/philosophy/Philosophy';
 import ToolBox from './components/toolbox/ToolBox';
@@ -26,9 +25,6 @@ function App() {
         </Route>
         <Route  path='/toolbox tips'>
           <ToolBox />
-        </Route>
-        <Route  path='/picture with ID'>
-          <Id />
         </Route>
       </Switch> 
       <GlobalStyle />
