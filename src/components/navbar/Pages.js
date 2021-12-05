@@ -9,7 +9,6 @@ const Pages = () => {
             <Link to='/teaching philosophy' ><li>TEACHING PHILOSOPHY</li></Link>
             <Link to='/lesson plans and videos' ><li>LESSON PLANS AND VIDEOS</li></Link>
             <Link to='/toolbox tips' ><li>TOOLBOX TIPS</li></Link>
-            <Link to='/picture with ID' ><li>PICTURE WITH ID</li></Link>
         </List>
      );
 }
